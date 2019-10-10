@@ -9,7 +9,7 @@ module "module_2" {
 }
 
 resource "aws_instance" "default" {
-  ami           = "${module.module_2.aws_ami.ubuntu.id}"
+  ami           = "${module.module_2.ami_id}"
   instance_type = "${var.instance_type}"
   subnet_id     = "${var.subnet_id}"
 
