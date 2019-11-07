@@ -15,6 +15,7 @@ resource "aws_instance" "default" {
 
   tags = {
     Name      = "sbabak-test-instance-1"
+    email     = "s.babak@scalr.com"
     timestamp = "${timestamp()}"
   }
 
