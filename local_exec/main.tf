@@ -1,7 +1,7 @@
-resource "null_resource" "test3" {
+resource "null_resource" "test4" {
   provisioner "local-exec" {
     command = <<EOT
-      sleep 4200  # 1h10m
+      sleep 42600  # 11h50m
     EOT
   }
 }
