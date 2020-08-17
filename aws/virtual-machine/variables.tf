@@ -6,5 +6,3 @@ variable "instance_type" {
   default = "m3.medium"
 }
 
-variable "AWS_SECRET_ACCESS_KEY " {}
-
